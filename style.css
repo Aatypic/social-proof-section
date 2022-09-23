@@ -5,3 +5,13 @@
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+:root {
+	/* colors */
+
+	/* fonts */
+	--ff-primary: "League Spartan", sans-serif;
+	--fweight-reg: 400;
+	--fweight-medium: 500;
+	--fweight-bold: 700;
+}
