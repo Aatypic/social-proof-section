@@ -8,7 +8,12 @@
 
 :root {
 	/* colors */
+	--clr-primary800: hsl(300, 43%, 22%);
+	--clr-primary100: hsl(333, 80%, 67%);
 
+	--clr-neutral700: hsl(303, 10%, 53%);
+	--clr-neutral300: hsl(300, 24%, 96%);
+	--clr-neutral100: hsl(0, 0%, 100%);
 	/* fonts */
 	--ff-primary: "League Spartan", sans-serif;
 	--fweight-reg: 400;
