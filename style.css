@@ -97,7 +97,7 @@ body {
 		url(images/bg-pattern-bottom-mobile.svg);
 	background-position: top left, bottom right;
 	background-repeat: no-repeat;
-	background-size: max(50%, 23em), max(90%, 55em);
+	background-size: max(45%, 23em), max(85%, 50em);
 }
 main {
 	max-width: 70rem;
