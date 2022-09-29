@@ -5,7 +5,7 @@
 
 	--clr-neutral700: hsl(303, 10%, 53%);
 	--clr-neutral300: hsl(300, 24%, 96%);
-	--clr-neutral350: hsl(300, 75%, 96%);
+	--clr-neutral350: hsl(300, 50%, 96%);
 	--clr-neutral100: hsl(0, 0%, 100%);
 	/* fonts */
 	--ff-primary: "League Spartan", sans-serif;
@@ -87,10 +87,12 @@ picture {
 /* general styling */
 
 body {
+	display: grid;
+	place-content: center;
+	text-align: center;
 	font-family: var(--ff-primary);
 	color: var(--clr-primary800);
-	display: grid;
-	text-align: center;
+
 	background-image: url(images/bg-pattern-top-mobile.svg),
 		url(images/bg-pattern-bottom-mobile.svg);
 	background-position: top left, bottom right;
@@ -195,13 +197,17 @@ h1 {
 	color: var(--clr-neutral300);
 }
 
+/* footer */
 .attribution {
 	font-size: 11px;
 	text-align: center;
 }
 .attribution a {
-	color: var(--clr-primary800);
+	color: var(--clr-primary100);
+	text-decoration: none;
+	font-weight: var(--fweight-medium);
 }
+
 /* animations fix speed */
 .hero__ratings li,
 .card {
@@ -232,7 +238,7 @@ h1 {
 	}
 	main {
 		grid-template-columns: 1fr 1.2fr;
-		gap: 0 1rem;
+		gap: 3rem 1rem;
 	}
 	.hero__header {
 		text-align: left;
